@@ -29,7 +29,8 @@ RUN pip install --upgrade pip && \
     pip install opencv-python && \
     pip install scikit-image && \
     pip install Pillow && \
-    pip install scipy
+    pip install scipy && \
+    pip install jedi
 
 WORKDIR /
 RUN mkdir /work
